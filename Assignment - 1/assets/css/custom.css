@@ -1,0 +1,92 @@
+html body
+{
+	background: #d6dbe5;
+	height: 100%;
+	width: auto;
+}
+*
+{
+	text-align: center;
+}
+.main-div
+{
+	text-align: center;
+	margin:auto;
+	width:80%;
+	height: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background: white;
+	box-shadow: 20px 20px 50px 10px black;
+}
+.img-div
+{
+	background: #01a9f2;
+}
+hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+}
+.invoice
+{
+	padding:10px;
+	width:80%;
+	margin:auto;
+}
+#cost
+{
+	text-align: right;
+	float: right;
+}
+.total
+{
+	background:#01a9f2;
+	text-align: right; 
+}
+ul
+{
+	list-style: none;
+}
+li
+{
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	font-size:1.5em;
+}
+#logo
+{
+	float:left;height:70px;
+	width:auto;
+	border:2px solid #d8208a;
+	margin-left:10px;
+	margin-top: 5px;
+}
+#home
+{	
+	width: 1%; 
+}
+@media(max-width: 300px)
+{
+	#logo
+	{
+		width:80%;
+	}
+	.right
+	{
+		margin:0;
+		height:auto;
+		width:auto;
+	}
+	.left
+	{
+		margin: 0;
+		height:auto;
+		width:auto;
+	}
+	*
+	{
+		text-align: center;	
+	}
+}

@@ -1,0 +1,16 @@
+$('#home').mouseover(function()
+{
+	$(this).addClass("button-style");
+});
+$('#home').mouseout(function()
+{
+	$(this).removeClass("button-style");
+});
+$('#course').mouseover(function()
+{
+	$(this).addClass("button-style");
+});
+$('#course').mouseout(function()
+{
+	$(this).removeClass("button-style");
+});

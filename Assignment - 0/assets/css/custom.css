@@ -1,0 +1,84 @@
+*
+{
+	text-align: center;
+}
+ul
+{
+	padding:1em;
+	margin-left: 10px;
+	text-align: center;
+	overflow-x: hidden;
+}
+li
+{
+	padding: 0.5em;
+	font-size: 1em;
+	text-align: center;
+	overflow-x: hidden;
+}
+.offset
+{
+	margin-left:15em;
+	width: 100%;
+	height:100%;
+	float: left;
+	transition: 0.5s;
+}
+.no-offset
+{
+	margin-left: 0;
+	transition: 1s;
+	position: fixed;
+	height:100%;
+	max-width: 100%;
+}
+#navigator
+{
+	display: block;
+	width:15em;
+	overflow:scroll;
+	position: fixed;
+	height:100%;
+}
+body
+{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.styling
+{
+	color:white;
+	text-align: left;
+	padding-left:10px;
+}
+#elec_head,#clo_head,#gro_head,#fur_head
+{
+	border:1px solid green;
+}
+
+html
+{
+	width: 70em;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.position
+{
+	margin:5px;
+	padding:5px;
+	position: fixed;
+}
+h1
+{
+	color:black;
+}
+.smcom-data,.wmcom-data,.tvcom-data,
+	.clomencom-data,.clowomencom-data,
+		.gromencom-data,.growomencom-data
+{
+	width: 50em;
+	height: 2em;
+	float:center;
+	margin:auto;
+	text-align: center;
+}
