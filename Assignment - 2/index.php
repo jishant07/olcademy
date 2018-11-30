@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Me!</title>
-	<link rel="stylesheet" type="text/css" href="style1.css">
-	<script type="text/javascript" src="test.js"></script>
-	<script type="text/javascript" src="http://livejs.com/live.js"></script>
+	<title>Profile Page upload</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-<form action="upload.php" method="post" enctype="multipart/form-data">
-	<input type="file" name="filetoupload">
-	<button>Submit</button>
-</form>	
+	<h1>Attach the file here...</h1>
+	<form>
+		<input type="file" name="filetoupload" id="uploadFile">
+		<button id="final">Submit</button><span id="message"></span>
+	</form>
 </body>
+<script type="text/javascript" src="ajaxworks.js"></script>
 </html>
